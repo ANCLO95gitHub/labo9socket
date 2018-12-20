@@ -1,0 +1,36 @@
+input {
+    height: 35px;
+}
+
+#container {
+    border: 1px solid #f7f7f7;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    border-radius: 4px;
+    position: relative;
+}
+
+#chatBox {
+    overflow: auto;
+}
+
+#nameInput {
+    width: 497px;
+}
+
+#sendMessageBox {
+    position: absolute;
+    bottom: 0;
+}
+
+.line {
+    background-color: #f7f7f7;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: left;
+}
+
+#messageInput {
+    width: 435px;
+}
